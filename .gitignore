@@ -1,0 +1,45 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Streamlit secrets & local cache (keep config.toml tracked)
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and profiling
+*.log
+profile_default/
+ipython_config.py
+
+# Optional: Large Model weights & Datasets (uncomment if using Git LFS or storing weights separately)
+# *.pth
+# *.pt
+# *.bin
+# *.csv
